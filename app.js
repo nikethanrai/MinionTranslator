@@ -24,7 +24,7 @@ function clickHandler() {
 };
 function errorHandler(error){
     console.log("error occured",error);
-    alert('something is wrong  with server')
+    alert('You only get 5 translations. Try again in an hour')
 }
 
 btnTranslate.addEventListener('click', clickHandler)
